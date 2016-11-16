@@ -1,519 +1,519 @@
-af Afghanistan 
+af afghanistan 
 
-ax Akrotiri 
+ax akrotiri 
 
-al Albania 
+al albania 
 
-ag Algeria 
+ag algeria 
 
-aq American Samoa 
+aq american samoa 
 
-an Andorra 
+an andorra 
 
-ao Angola 
+ao angola 
 
-av Anguilla 
+av anguilla 
 
-ay Antarctica 
+ay antarctica 
 
-ac Antigua and Barbuda 
+ac antigua and barbuda 
 
-xq Arctic Ocean 
+xq arctic ocean 
 
-ar Argentina 
+ar argentina 
 
-am Armenia 
+am armenia 
 
-aa Aruba 
+aa aruba 
 
-at Ashmore and Cartier Islands 
+at ashmore and cartier islands 
 
-zh Atlantic Ocean 
+zh atlantic ocean 
 
-as Australia 
+as australia 
 
-au Austria 
+au austria 
 
-aj Azerbaijan 
+aj azerbaijan 
 
-bf Bahamas, The 
+bf bahamas, the 
 
-ba Bahrain 
+ba bahrain 
 
-bg Bangladesh 
+bg bangladesh 
 
-bb Barbados 
+bb barbados 
 
-bo Belarus 
+bo belarus 
 
-be Belgium 
+be belgium 
 
-bh Belize 
+bh belize 
 
-bn Benin 
+bn benin 
 
-bd Bermuda 
+bd bermuda 
 
-bt Bhutan 
+bt bhutan 
 
-bl Bolivia 
+bl bolivia 
 
-bk Bosnia and Herzegovina 
+bk bosnia and herzegovina 
 
-bc Botswana 
+bc botswana 
 
-bv Bouvet Island 
+bv bouvet island 
 
-br Brazil 
+br brazil 
 
-in India 
+in india 
 
-io British Indian Ocean Territory 
+io british indian ocean territory 
 
-vi British Virgin Islands 
+vi british virgin islands 
 
-bx Brunei 
+bx brunei 
 
-bu Bulgaria 
+bu bulgaria 
 
-uv Burkina Faso 
+uv burkina faso 
 
-bm Burma 
+bm burma 
 
-by Burundi 
+by burundi 
 
-cb Cambodia 
+cb cambodia 
 
-cm Cameroon 
+cm cameroon 
 
-ca Canada 
+ca canada 
 
-cv Cape Verde 
+cv cape verde 
 
-cj Cayman Islands 
+cj cayman islands 
 
-ct Central African Republic 
+ct central african republic 
 
-cd Chad 
+cd chad 
 
-ci Chile 
+ci chile 
 
-ch China 
+ch china 
 
-kt Christmas Island 
+kt christmas island 
 
-ip Clipperton Island 
+ip clipperton island 
 
-ck Cocos (Keeling) Islands 
+ck cocos (keeling) islands 
 
-co Colombia 
+co colombia 
 
-cn Comoros 
+cn comoros 
 
-cg Congo, Democratic Republic of the 
+cg congo, democratic republic of the 
 
-cf Congo, Republic of the 
+cf congo, republic of the 
 
-cw Cook Islands 
+cw cook islands 
 
-cr Coral Sea Islands 
+cr coral sea islands 
 
-cs Costa Rica 
+cs costa rica 
 
-iv Cote d'Ivoire 
+iv cote d'ivoire 
 
-hr Croatia 
+hr croatia 
 
-cu Cuba 
+cu cuba 
 
-cc Curacao 
+cc curacao 
 
-cy Cyprus 
+cy cyprus 
 
-ez Czech Republic 
+ez czech republic 
 
-da Denmark 
+da denmark 
 
-dx Dhekelia 
+dx dhekelia 
 
-dj Djibouti 
+dj djibouti 
 
-do Dominica 
+do dominica 
 
-dr Dominican Republic 
+dr dominican republic 
 
-ec Ecuador 
+ec ecuador 
 
-eg Egypt 
+eg egypt 
 
-es El Salvador 
+es el salvador 
 
-ek Equatorial Guinea 
+ek equatorial guinea 
 
-er Eritrea 
+er eritrea 
 
-en Estonia 
+en estonia 
 
-et Ethiopia 
+et ethiopia 
 
-fk Falkland Islands (Islas Malvinas) 
+fk falkland islands (islas malvinas) 
 
-fo Faroe Islands 
+fo faroe islands 
 
-fj Fiji 
+fj fiji 
 
-fi Finland 
+fi finland 
 
-fr France 
+fr france 
 
-fp French Polynesia 
+fp french polynesia 
 
-fs French Southern and Antarctic Lands 
+fs french southern and antarctic lands 
 
-gb Gabon 
+gb gabon 
 
-ga Gambia, The 
+ga gambia, the 
 
-gz Gaza Strip 
+gz gaza strip 
 
-gg Georgia 
+gg georgia 
 
-gm Germany 
+gm germany 
 
-gh Ghana 
+gh ghana 
 
-gi Gibraltar 
+gi gibraltar 
 
-gr Greece 
+gr greece 
 
-gl Greenland 
+gl greenland 
 
-gj Grenada 
+gj grenada 
 
-gq Guam 
+gq guam 
 
-gt Guatemala 
+gt guatemala 
 
-gk Guernsey 
+gk guernsey 
 
-gv Guinea 
+gv guinea 
 
-pu Guinea-Bissau 
+pu guinea-bissau 
 
-gy Guyana 
+gy guyana 
 
-ha Haiti 
+ha haiti 
 
-hm Heard Island and McDonald Islands 
+hm heard island and mcdonald islands 
 
-vt Holy See (Vatican City) 
+vt holy see (vatican city) 
 
-ho Honduras 
+ho honduras 
 
-hk Hong Kong 
+hk hong kong 
 
-hu Hungary 
+hu hungary 
 
-ic Iceland 
+ic iceland 
 
-xo Indian Ocean 
+xo indian ocean 
 
-id Indonesia 
+id indonesia 
 
-ir Iran 
+ir iran 
 
-iz Iraq 
+iz iraq 
 
-ei Ireland 
+ei ireland 
 
-im Isle of Man 
+im isle of man 
 
-is Israel 
+is israel 
 
-it Italy 
+it italy 
 
-jm Jamaica 
+jm jamaica 
 
-jn Jan Mayen 
+jn jan mayen 
 
-ja Japan 
+ja japan 
 
-je Jersey 
+je jersey 
 
-jo Jordan 
+jo jordan 
 
-kz Kazakhstan 
+kz kazakhstan 
 
-ke Kenya 
+ke kenya 
 
-kr Kiribati 
+kr kiribati 
 
-kn Korea, North 
+kn korea, north 
 
-ks Korea, South 
+ks korea, south 
 
-kv Kosovo 
+kv kosovo 
 
-ku Kuwait 
+ku kuwait 
 
-kg Kyrgyzstan 
+kg kyrgyzstan 
 
-la Laos 
+la laos 
 
-lg Latvia 
+lg latvia 
 
-le Lebanon 
+le lebanon 
 
-lt Lesotho 
+lt lesotho 
 
-li Liberia 
+li liberia 
 
-ly Libya 
+ly libya 
 
-ls Liechtenstein 
+ls liechtenstein 
 
-lh Lithuania 
+lh lithuania 
 
-lu Luxembourg 
+lu luxembourg 
 
-mc Macau 
+mc macau 
 
-mk Macedonia 
+mk macedonia 
 
-ma Madagascar 
+ma madagascar 
 
-mi Malawi 
+mi malawi 
 
-my Malaysia 
+my malaysia 
 
-mv Maldives 
+mv maldives 
 
-ml Mali 
+ml mali 
 
-mt Malta 
+mt malta 
 
-rm Marshall Islands 
+rm marshall islands 
 
-mr Mauritania 
+mr mauritania 
 
-mp Mauritius 
+mp mauritius 
 
-mx Mexico 
+mx mexico 
 
-fm Micronesia, Federated States of 
+fm micronesia, federated states of 
 
-md Moldova 
+md moldova 
 
-mn Monaco 
+mn monaco 
 
-mg Mongolia 
+mg mongolia 
 
-mj Montenegro 
+mj montenegro 
 
-mh Montserrat 
+mh montserrat 
 
-mo Morocco 
+mo morocco 
 
-mz Mozambique 
+mz mozambique 
 
-wa Namibia 
+wa namibia 
 
-nr Nauru 
+nr nauru 
 
-bq Navassa Island 
+bq navassa island 
 
-np Nepal 
+np nepal 
 
-nl Netherlands 
+nl netherlands 
 
-nc New Caledonia 
+nc new caledonia 
 
-nz New Zealand 
+nz new zealand 
 
-nu Nicaragua 
+nu nicaragua 
 
-ng Niger 
+ng niger 
 
-ni Nigeria 
+ni nigeria 
 
-ne Niue 
+ne niue 
 
-nf Norfolk Island 
+nf norfolk island 
 
-cq Northern Mariana Islands 
+cq northern mariana islands 
 
-no Norway 
+no norway 
 
-mu Oman 
+mu oman 
 
-zn Pacific Ocean 
+zn pacific ocean 
 
-pk Pakistan 
+pk pakistan 
 
-ps Palau 
+ps palau 
 
-pm Panama 
+pm panama 
 
-pp Papua New Guinea 
+pp papua new guinea 
 
-pf Paracel Islands 
+pf paracel islands 
 
-pa Paraguay 
+pa paraguay 
 
-pe Peru 
+pe peru 
 
-rp Philippines 
+rp philippines 
 
-pc Pitcairn Islands 
+pc pitcairn islands 
 
-pl Poland 
+pl poland 
 
-po Portugal 
+po portugal 
 
-rq Puerto Rico 
+rq puerto rico 
 
-qa Qatar 
+qa qatar 
 
-ro Romania 
+ro romania 
 
-rs Russia 
+rs russia 
 
-rw Rwanda 
+rw rwanda 
 
-tb Saint Barthelemy 
+tb saint barthelemy 
 
-sh Saint Helena, Ascension, and Tristan da Cunha 
+sh saint helena, ascension, and tristan da cunha 
 
-sc Saint Kitts and Nevis 
+sc saint kitts and nevis 
 
-st Saint Lucia 
+st saint lucia 
 
-rn Saint Martin 
+rn saint martin 
 
-sb Saint Pierre and Miquelon 
+sb saint pierre and miquelon 
 
-vc Saint Vincent and the Grenadines 
+vc saint vincent and the grenadines 
 
-ws Samoa 
+ws samoa 
 
-sm San Marino 
+sm san marino 
 
-tp Sao Tome and Principe 
+tp sao tome and principe 
 
-sa Saudi Arabia 
+sa saudi arabia 
 
-sg Senegal 
+sg senegal 
 
-ri Serbia 
+ri serbia 
 
-se Seychelles 
+se seychelles 
 
-sl Sierra Leone 
+sl sierra leone 
 
-sn Singapore 
+sn singapore 
 
-sk Sint Maarten 
+sk sint maarten 
 
-lo Slovakia 
+lo slovakia 
 
-si Slovenia 
+si slovenia 
 
-bp Solomon Islands 
+bp solomon islands 
 
-so Somalia 
+so somalia 
 
-sf South Africa 
+sf south africa 
 
-sx South Georgia and South Sandwich Islands 
+sx south georgia and south sandwich islands 
 
-oo Southern Ocean 
+oo southern ocean 
 
-od South Sudan 
+od south sudan 
 
-sp Spain 
+sp spain 
 
-pg Spratly Islands 
+pg spratly islands 
 
-ce Sri Lanka 
+ce sri lanka 
 
-su Sudan 
+su sudan 
 
-ns Suriname 
+ns suriname 
 
-sv Svalbard 
+sv svalbard 
 
-wz Swaziland 
+wz swaziland 
 
-sw Sweden 
+sw sweden 
 
-sz Switzerland 
+sz switzerland 
 
-sy Syria 
+sy syria 
 
-tw Taiwan 
+tw taiwan 
 
-ti Tajikistan 
+ti tajikistan 
 
-tz Tanzania 
+tz tanzania 
 
-th Thailand 
+th thailand 
 
-tt Timor-Leste 
+tt timor-leste 
 
-to Togo 
+to togo 
 
-tl Tokelau 
+tl tokelau 
 
-tn Tonga 
+tn tonga 
 
-td Trinidad and Tobago 
+td trinidad and tobago 
 
-ts Tunisia 
+ts tunisia 
 
-tu Turkey 
+tu turkey 
 
-tx Turkmenistan 
+tx turkmenistan 
 
-tk Turks and Caicos Islands 
+tk turks and caicos islands 
 
-tv Tuvalu 
+tv tuvalu 
 
-ug Uganda 
+ug uganda 
 
-up Ukraine 
+up ukraine 
 
-ae United Arab Emirates 
+ae united arab emirates 
 
-uk United Kingdom 
+uk united kingdom 
 
-us United States 
+us united states 
 
-um United States Pacific Island Wildlife Refuges 
+um united states pacific island wildlife refuges 
 
-uy Uruguay 
+uy uruguay 
 
-uz Uzbekistan 
+uz uzbekistan 
 
-nh Vanuatu 
+nh vanuatu 
 
-ve Venezuela 
+ve venezuela 
 
-vm Vietnam 
+vm vietnam 
 
-vq Virgin Islands 
+vq virgin islands 
 
-wq Wake Island 
+wq wake island 
 
-wf Wallis and Futuna 
+wf wallis and futuna 
 
-we West Bank 
+we west bank 
 
-wi Western Sahara 
+wi western sahara 
 
-ym Yemen 
+ym yemen 
 
-za Zambia 
+za zambia 
 
-zi Zimbabwe 
+zi zimbabwe 
 
-ee European Union 
+ee european union 

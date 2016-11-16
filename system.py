@@ -2,19 +2,41 @@ from BeautifulSoup import BeautifulSoup
 from difflib import *
 import zipfile, io, re
 
-def main():
-    country = raw_input("Enter a Country:")
-    keyWord = getQuery() #raw_input("What would you like to know?")
-    countrySearch(country, keyWord)
 
-def countrySearch(country, key):
+
+def list_country():
     file = open("countryList.txt", "r")
     for line in file:
-        if country in line:
-            page = line[:2] + ".html" #finds name of the country's file
-            break
+        con = line[3:]
+        print con
 
-    print page
+def main():
+    while True:
+        country = raw_input("Enter a Country:").lower()
+        keyWord = getQuery() #raw_input("What would you like to know?")
+        countrySearch(country, keyWord)
+
+
+def countrySearch(country, key):
+
+    try:
+
+        file = open("countryList.txt", "r")
+        for line in file:
+            if country in line:
+                page = line[:2] + ".html" #finds name of the country's file
+                break
+        print page
+
+
+    except UnboundLocalError:
+        print 'Invalid Input: Please try again'
+        return
+
+
+
+
+
 
     archive = zipfile.ZipFile("countries.zip", "r") #access a zip archive
     file2 = archive.open(page, "r")
@@ -119,6 +141,10 @@ def getQuery():
 
 
 
+op = raw_input("1: List of Countries.   2: Search about a specific country.")
+options = {"1":list_country,
+           "2":main}
+options.get(op,main)()
 
 
 
