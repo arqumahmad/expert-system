@@ -1,0 +1,62 @@
+Name of place,Country,Budget,Type of place
+Machu Picchu,Peru,2.5,Historical
+Tikal,Guatemala,2.5,Historical
+The Pyramids at Giza,Egypt,2.5,Historical
+Angkor Wat,Cambodia,2.5,Historical
+Petra,"Jordan
+",2.5,Historical
+Stonehenge,England,1.5,Historical
+The Colosseum and Forum,Italy,1.5,Historical
+The Parthenon,Greece,1.5,Historical
+Easter Island,Chile,1.5,Historical
+The Alhambra,California,1.5,Historical
+Taj Mahal,India,0.5,Historical
+The Great Wall of China,China,0.5,Historical
+Chichén Itzá,Mexico,0.5,Historical
+Volubilis,Morocco,0.5,Historical
+Sukhothai,Thailand,0.5,Historical
+Victoria Peak,Hong Kong,2.5,Hill Station
+Mount Mogan,China,2.5,Hill Station
+Alaska,USA,2.5,Hill Station
+Arizona,USA,2.5,Hill Station
+Geneva,Europe,2.5,Hill Station
+Zurich,Europe,1.5,Hill Station
+Cape Town,Africa,1.5,Hill Station
+Aspen,USA,1.5,Hill Station
+Da Lat,Vietnam,1.5,Hill Station
+Cooktown,Australia,1.5,Hill Station
+Shimla,India,0.5,Hill Station
+Ooty,India,0.5,Hill Station
+Darjeeling and Gangtok,India,0.5,Hill Station
+Bandarban,Banladesh,0.5,Hill Station
+Pyin U Lwin,Burma,0.5,Hill Station
+Arabian Desert,UAE,2.5,Desert
+Mundulea Reserve,"Namibia,Afica",2.5,Desert
+Sahara Desert,Egypt,2.5,Desert
+The Central Kalahari Game Reserve,Africa,2.5,Desert
+Black Rock Desert,USA,2.5,Desert
+Wahiba sands,Oman,1.5,Desert
+The Central Kalahari Game Reserve,Africa,1.5,Desert
+Maasai Mara,Kenya,1.5,Desert
+Duba,Africa,1.5,Desert
+Ruaha National Park,Tanzania,1.5,Desert
+Thar Desert,India,0.5,Desert
+Northern Kenya,Kenya,0.5,Desert
+Duba,Africa,0.5,Desert
+Gorillas,Rwanda,0.5,Desert
+Ruaha National Park,Tanzania,0.5,Desert
+El Nido,Philippines,2.5,Beach
+Honokalani Beach,HI,2.5,Beach
+Pansy Island,Mozambique,2.5,Beach
+Anse Lazio,Seychelles,2.5,Beach
+Honopu Beach,HI,2.5,Beach
+Sunset Beach,HI,1.5,Beach
+Ipanema Beach,Brazil,1.5,Beach
+Blue Beach,Puerto Rico,1.5,Beach
+Praia Mole,Brazil,1.5,Beach
+Waipio Valley Beach,HI,1.5,Beach
+Matira Beach,French Polynesia,0.5,Beach
+Long Beach,Thailand,0.5,Beach
+Puka Beach,Philippines,0.5,Beach
+Horseshoe Bay,Bermuda,0.5,Beach
+Temae and Teavora,French Polynesia,0.5,Beach
