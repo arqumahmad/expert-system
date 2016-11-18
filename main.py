@@ -1,6 +1,27 @@
 from BeautifulSoup import BeautifulSoup
 from difflib import *
 import zipfile, io, re, csv, sys
+def select():
+    print "Welcome to the Geographic Information Expert System!"
+    print "\t1. List the countries"
+    print "\t2. Search about the geographic detais of any country in the world."
+    print "\t3. Ask our Expert system suggestions to LIVE, WORK or TRAVEL in different countries.\n"
+
+
+    choice = input()
+
+    if choice == 1:
+        list_country()
+
+    elif choice == 2:
+        main()
+
+    elif choice == 3:
+        expertSystem()
+
+    else:
+        "Invalid option. Please try again."
+
 
 def list_country():
     file = open("countryList.txt", "r")
@@ -11,13 +32,11 @@ def list_country():
 def main():
     while True:
         country = raw_input("Enter a Country: OR (Type `BACK` to go back to menu:):").lower()
-
         if country=='back':
-            opm = raw_input("1: List of Countries.   2: Search about a specific country.")
-            options_main = {"1":list_country,
-                       "2":main}
-            options.get(opm,main)()
+            select()
+
         keyWord = getQuery() #raw_input("What would you like to know?")
+
         countrySearch(country, keyWord)
 
 
@@ -126,7 +145,8 @@ def formatKey(key):
 
 
 def getQuery():
-	userInput = raw_input("What would you like to know?").lower()
+	userInput = raw_input("What would you like to know?  ").lower()
+
 	wordsToRemove = ["how", "what", "the", "a", "an", "which", "of", "in", ",", ":", ".", "?", "is"]
 
 	words = []
@@ -278,8 +298,10 @@ def askQuestion(countryDetails):
     print "1. I want to migrate to another country. Please help me decide which country will be best suitable for me to live in.\n"
     print "2. I want to work in a country where I can earn most money. Where should I go?\n"
     print "3. I want to travel to exotic places in the world. Can you suggest me some?\n"
+    print "4. Go Back!\n"
 
     a = int(raw_input())
+
 
     if(a == 1):
         liveSuggestion(countryDetails)
@@ -306,12 +328,16 @@ def askQuestion(countryDetails):
 
             jobtype = int(raw_input('What type of company would you work for 1: Startup,  2: Local businesses,  3: MNC'))
             # break;
+
         else:
             print "wrong input"
 
     elif(a ==3):
 
         tourismSuggestion()
+
+    elif(a==4):
+        select()
 
     else:
         print "Invalid option!"
@@ -353,27 +379,11 @@ def expertSystem():
 
 
 
-op = raw_input("1: List of Countries.   2: Search about a specific country.")
-options = {"1":list_country,
-           "2":main}
-options.get(op,main)()
+
 
 
 
 if __name__ == '__main__':
 
 
-    print "Welcome to the Geographic Information Expert System!"
-    print "\t1. Search about the geographic detais of any country in the world."
-    print "\t2. Ask our Expert system suggestions to LIVE, WORK or TRAVEL in different countries.\n"
-
-    choice = input()
-
-    if choice == 1:
-        main()
-
-    elif choice == 2:
-        expertSystem()
-
-    else:
-        "Invalid option. Please try again."
+    select()

@@ -4,11 +4,6 @@ import zipfile, io, re
 
 
 
-def list_country():
-    file = open("countryList.txt", "r")
-    for line in file:
-        con = line[3:]
-        print con
 
 def main():
     while True:
@@ -141,10 +136,7 @@ def getQuery():
 
 
 
-op = raw_input("1: List of Countries.   2: Search about a specific country.")
-options = {"1":list_country,
-           "2":main}
-options.get(op,main)()
+
 
 
 
