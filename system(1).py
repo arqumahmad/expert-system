@@ -2,66 +2,76 @@ from BeautifulSoup import BeautifulSoup
 from difflib import *
 import zipfile, io, re, csv, sys
 
+def list_country():
+    file = open("countryList.txt", "r")
+    for line in file:
+        con = line[3:]
+        print con
+
 def main():
-    country = raw_input("Enter a Country:")
-    keyWord = getQuery() #raw_input("What would you like to know?")
-    countrySearch(country, keyWord)
+    while True:
+        country = raw_input("Enter a Country: OR (Type `BACK` to go back to menu:):").lower()
+
+        if country=='back':
+            opm = raw_input("1: List of Countries.   2: Search about a specific country.")
+            options_main = {"1":list_country,
+                       "2":main}
+            options.get(opm,main)()
+        keyWord = getQuery() #raw_input("What would you like to know?")
+        countrySearch(country, keyWord)
+
 
 def countrySearch(country, key):
-	file = open("countryList.txt", "r")
-	countryCode= {}
-	for line in file:
-		# rline = re.sub("\s", " ", line).split()
-		# print rline
 
-	    if country in line:
-	        page = line[:2] + ".html" #finds name of the country's file
-	        break
-	file.close()
-	file = open("countryList.txt", "r")
-	for line in file:
-		countryCode[line[:2]] = line[3:].strip("\n").strip(' ')
+    try:
 
-	print page
-	# for item in countryCode:
-	# 	print item, countryCode[item]
-
-	# print "-------", len(countryCode)
-
-	archive = zipfile.ZipFile("countries.zip", "r") #access a zip archive
-
-	for item in countryCode:
-		pg = item + ".html"
-		print pg
-		file2 = archive.open(pg, "r")
+        file = open("countryList.txt", "r")
+        for line in file:
+            if country in line:
+                page = line[:2] + ".html" #finds name of the country's file
+                break
+        print page
 
 
-		possibilities = parseHtml(file2)
+    except UnboundLocalError:
+        print 'Invalid Input: Please try again'
+        return
 
 
-		if key == ";lst":
-			for key in possibilities.keys():
-				print key + "," + possibilities[key]
-			return
-
-		if key == ";keys":
-			for key in possibilities.keys():
-				print key
-			return
-
-		results = get_close_matches(key, possibilities.keys())
-
-		if key == ";matches":
-			for result in results:
-				print result
-			return
 
 
-		if(len(results) == 0): print "I'm afraid I can't do that."
-		else:
-			for result in results:
-				print result + ": "
-		print possibilities[result]
+
+
+    archive = zipfile.ZipFile("countries.zip", "r") #access a zip archive
+    file2 = archive.open(page, "r")
+
+
+    possibilities = parseHtml(file2)
+
+
+    if key == ";lst":
+    	for key in possibilities.keys():
+    		print key + "," + possibilities[key]
+    	return
+
+    if key == ";keys":
+    	for key in possibilities.keys():
+    		print key
+    	return
+
+    results = get_close_matches(key, possibilities.keys())
+
+    if key == ";matches":
+    	for result in results:
+    		print result
+    	return
+
+
+    if(len(results) == 0): print "I'm afraid I can't do that."
+    else:
+    	for result in results:
+    		print result + ": "
+    		print possibilities[result]
 
 def parseHtml(htmlFile):
 	soup = BeautifulSoup(htmlFile)
@@ -129,6 +139,7 @@ def getQuery():
 	print userInput
 
 	return userInput
+
 
 def liveSuggestion(countryDetails):
     l = []
@@ -342,10 +353,15 @@ def expertSystem():
 
 
 
+op = raw_input("1: List of Countries.   2: Search about a specific country.")
+options = {"1":list_country,
+           "2":main}
+options.get(op,main)()
 
 
 
 if __name__ == '__main__':
+
 
     print "Welcome to the Geographic Information Expert System!"
     print "\t1. Search about the geographic detais of any country in the world."
