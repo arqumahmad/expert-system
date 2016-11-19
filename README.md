@@ -1,3 +1,4 @@
 # expert-system
+
 	Run main.py
-	Input the numbers as program ask
+	Input the numbers as the program ask

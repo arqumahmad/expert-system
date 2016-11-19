@@ -2,10 +2,10 @@ from BeautifulSoup import BeautifulSoup
 from difflib import *
 import zipfile, io, re, csv, sys
 def select():
-    print "Welcome to the Geographic Information Expert System!"
-    print "\t1. List the countries"
-    print "\t2. Search about the geographic detais of any country in the world."
-    print "\t3. Ask our Expert system suggestions to LIVE, WORK or TRAVEL in different countries.\n"
+    print "\nWelcome to the Geographic Information Expert System!"
+    print "\t1. List the countries."
+    print "\t2. Search about the geographic details of any country in the world. (KNOWLEDGE BASED SYSTEM)"
+    print "\t3. Ask our Expert system for suggestions to LIVE, WORK or TRAVEL in different countries. (RULE BASED EXPERT SYSTEM)\n\t4. Exit\n"
 
 
     choice = input()
@@ -19,47 +19,66 @@ def select():
     elif choice == 3:
         expertSystem()
 
+    elif choice == 4:
+        exit()
+
     else:
-        "Invalid option. Please try again."
+        print "Invalid option."
 
 
 def list_country():
     file = open("countryList.txt", "r")
+    count = 0
+    print "The countries you can search about are: "
     for line in file:
         con = line[3:]
-        print con
+        count += 1
+        print str(count) + '.', con,
+    select()
 
 def main():
     while True:
-        country = raw_input("Enter a Country: OR (Type `BACK` to go back to menu:):").lower()
+        country = raw_input("Enter a Country:\n(Type 'BACK' to go back to menu or 'EXIT' to exit)\n").lower()
         if country=='back':
             select()
+            break
 
+        if country=='exit':
+            exit()
+
+        country = country[0].upper() + country[1:].lower()
         keyWord = getQuery() #raw_input("What would you like to know?")
 
         countrySearch(country, keyWord)
 
+def getQuery():
+    userInput = raw_input("What would you like to know?  \n (eg. location, area, climate, population, nationality, rthinic group, languages, birth rate, death rate, economy, gdp, industries, etc)").lower()
+
+    wordsToRemove = ["how", "what", "the", "a", "an", "which", "of", "in", ",", ":", ".", "?", "is"]
+
+    words = []
+    for word in userInput.split():
+        if word not in wordsToRemove:
+            words.append(word)
+
+    userInput = " ".join(words)
+
+    print userInput
+
+    return userInput
 
 def countrySearch(country, key):
 
     try:
-
         file = open("countryList.txt", "r")
         for line in file:
             if country in line:
                 page = line[:2] + ".html" #finds name of the country's file
                 break
         print page
-
-
     except UnboundLocalError:
         print 'Invalid Input: Please try again'
         return
-
-
-
-
-
 
     archive = zipfile.ZipFile("countries.zip", "r") #access a zip archive
     file2 = archive.open(page, "r")
@@ -143,28 +162,11 @@ def formatKey(key):
 
 	return " ".join(temp)
 
-
-def getQuery():
-	userInput = raw_input("What would you like to know?  ").lower()
-
-	wordsToRemove = ["how", "what", "the", "a", "an", "which", "of", "in", ",", ":", ".", "?", "is"]
-
-	words = []
-	for word in userInput.split():
-		if word not in wordsToRemove:
-			words.append(word)
-
-	userInput = " ".join(words)
-
-	print userInput
-
-	return userInput
-
-
 def liveSuggestion(countryDetails):
     l = []
     c = []
-    print "What kind of population Desnity do u prefer?\n1.High\n2.Low\n"
+
+    print "What kind of Population Desnity do you prefer?\n1.High\n2.Low\n"
     b = int(raw_input())
     if(b == 1):
         l.append("high")
@@ -172,8 +174,8 @@ def liveSuggestion(countryDetails):
         l.append("low")
     else:
         print "Invalid selection"
-        # continue
-    print "What kind of Climate do u prefer?\n1.Cold\n2.Moderate\n3.Hot\n"
+
+    print "What kind of Climate do you prefer?\n1.Cold\n2.Moderate\n3.Hot\n"
     c = int(raw_input())
     if(c == 1):
         l.append("cold")
@@ -183,8 +185,8 @@ def liveSuggestion(countryDetails):
         l.append("hot")
     else:
         print "Invalid selection"
-        # continue
-    print "What kind of Government do u prefer?\n1.Democracy\n2.Communist\n3.Monarchy\n4.Republic\n5.Federal"
+
+    print "What kind of Government do you prefer?\n1.Democracy\n2.Communist\n3.Monarchy\n4.Republic\n5.Federal"
     g = int(raw_input())
     if(g == 1):
         l.append("democracy")
@@ -198,7 +200,7 @@ def liveSuggestion(countryDetails):
         l.append("federal")
     else:
         print "Invalid selection"
-        # continue
+
     print "What is your religion?\n1.Christianity\n2.Buddhism\n3.Hinduism\n4.Islam\n5.Atheist"
     r = int(raw_input())
     if(r == 1):
@@ -213,8 +215,6 @@ def liveSuggestion(countryDetails):
         l.append("athiest")
     else:
         print "Invalid selection"
-        # continue
-    # break
 
     possibleCountry = []
     for item in countryDetails:
@@ -224,9 +224,100 @@ def liveSuggestion(countryDetails):
     if possibleCountry != []:
         print "Your possible choices are: "
         for item in possibleCountry:
-            print item
+            print item.upper()
     else:
         print "Such a rare combination is not available among the top 30 rich countries of the world!"
+
+def workSuggestion(countryDetails):
+    x = int(raw_input('What is your work preference?:\n1. Business\n2. Job\n'))
+    wp = False; #Work preference F: Business T: Job
+    ie = False; #F: Import  T: Export
+    fdomain = 0;
+    jobtype = 0;    # 1: Startup 2: Local business 3: MNC
+    l = []
+    if x == 1:
+
+        wp = False;
+        xa = int(raw_input('Choose the type of trade:\n1.Imports\n2.Exports\n'))
+
+        if xa == 1:
+            l.append("import")
+
+        elif xa == 2:
+            l.append("export")
+
+        else:
+            print "Wrong input"
+
+        print "Your field:"
+        fdomain = int(raw_input('1. Technology\n2. Manufacturing\n3. Tourism\n4. Infrastructure\n'))
+        if fdomain == 1:
+            l.append("technology")
+
+        elif fdomain == 2:
+            l.append("manufacturing")
+
+        elif fdomain == 3:
+            l.append("tourism")
+
+        elif fdomain == 4:
+            l.append("infrastructure")
+
+        else:
+            print "Wrong input"
+
+        possibleCountry = []
+        for item in countryDetails:
+            # print l[0], l[1]
+            if countryDetails[item]["trade type"] == l[0] and countryDetails[item]["field domain"] == l[1]:
+
+                possibleCountry.append(item)
+
+        if possibleCountry != []:
+            print "Your possible choices are: "
+            for item in possibleCountry:
+                print item.upper()
+        else:
+            print "Such a rare combination is not available among the top 30 rich countries of the world!"
+        # break;
+
+    elif x == 2:
+        l = []
+        wp = True;
+        print "Your field:"
+        fdomain = int(raw_input('1. Technology\n2. Manufacturing\n3. Tourism\n4. Infrastructure\n'))
+
+        # jobtype = int(raw_input('What type of company would you work for 1: Startup,  2: Local businesses,  3: MNC'))
+        if fdomain == 1:
+            l.append("technology")
+
+        elif fdomain == 2:
+            l.append("manufacturing")
+
+        elif fdomain == 3:
+            l.append("tourism")
+
+        elif fdomain == 4:
+            l.append("infrastructure")
+
+        else:
+            print "Wrong input"
+
+        possibleCountry = []
+        for item in countryDetails:
+            # print l[0], l[1]
+            if countryDetails[item]["field domain"] == l[0]:
+
+                possibleCountry.append(item)
+
+        if possibleCountry != []:
+            print "Your possible choices are: "
+            for item in possibleCountry:
+                print item.upper()
+        else:
+            print "Such a rare combination is not available among the top 30 rich countries of the world!"
+    else:
+        print "wrong input"
 
 def tourismSuggestion():
     tourism = {}
@@ -250,15 +341,9 @@ def tourismSuggestion():
             if placeList[0][j] != "" and placeList[i][j] != "":
                 tourism[placeList[i][0]][placeList[0][j]] = placeList[i][j]
 
-    # for item in tourism:
-    #     print item, "========"
-    #     for domain in tourism[item]:
-    #         print domain, '->', tourism[item][domain]
-
-
     l = []
 
-    print "What is your total budget (per person) ?\n1. Under 1 lakh\n2. Between 1 and 2 lakhs\n3. Above 2 lakhs\n"
+    print "What is your total budget (per person) ?\n1. Under 1 lakh INR\n2. Between 1 and 2 lakhs INR\n3. Above 2 lakhs INR\n"
 
     c = int(raw_input())
     if(c == 1):
@@ -283,7 +368,7 @@ def tourismSuggestion():
 
     # print l
     # possiblePlaces = []
-    print "The top 5 places you can visit are: "
+    print "The top places you can visit are: "
     for item in tourism:
         # print item, '-----'
         # if tourism[item]["population density"] == l[0] and
@@ -292,13 +377,13 @@ def tourismSuggestion():
         if float(tourism[item]["budget"]) == l[0] and tourism[item]["type of place"] == l[1]:
             print item.upper() + ",", tourism[item]["country"].upper()
 
-
 def askQuestion(countryDetails):
 
-    print "1. I want to migrate to another country. Please help me decide which country will be best suitable for me to live in.\n"
-    print "2. I want to work in a country where I can earn most money. Where should I go?\n"
-    print "3. I want to travel to exotic places in the world. Can you suggest me some?\n"
-    print "4. Go Back!\n"
+    print "Choose the question you want to ask:"
+    print "\t1. I want to migrate to another country. Please help me decide which country will be best suitable for me to live in."
+    print "\t2. I want to work in a country where I can earn most money. Where should I go?"
+    print "\t3. I want to travel to exotic places in the world. Can you suggest me some?"
+    print "\t4. Go Back!\n"
 
     a = int(raw_input())
 
@@ -307,30 +392,7 @@ def askQuestion(countryDetails):
         liveSuggestion(countryDetails)
 
     elif(a == 2):
-        # print "p2"
-        x = int(raw_input('What is your work preference ? 1. a business  2. a job ? '))
-        wp = False; #Work preference F: Business T: Job
-        ie = False; #F: Import  T: Export
-        fdomain = 0;
-        jobtype = 0;    # 1: Startup 2: Local business 3: MNC
-
-        if x == 1:
-            wp = False;
-            xa = int(raw_input('1.Imports or 2.Exports: '))
-            print "Your field:"
-            fdomain = int(raw_input('1. Technology,  2. Manufacturing,  3. Agriculture,  4. Infrastructure: '))
-            # break;
-
-        elif x == 2:
-            wp = True;
-            print "Your field:"
-            fdomain = int(raw_input('1. Technology, 2. Manufacturing, 3. Agriculture, 4. Infrastructure: '))
-
-            jobtype = int(raw_input('What type of company would you work for 1: Startup,  2: Local businesses,  3: MNC'))
-            # break;
-
-        else:
-            print "wrong input"
+        workSuggestion(countryDetails)
 
     elif(a ==3):
 
@@ -338,11 +400,10 @@ def askQuestion(countryDetails):
 
     elif(a==4):
         select()
+        exit()
 
     else:
         print "Invalid option!"
-
-
 
 def expertSystem():
 
@@ -367,23 +428,7 @@ def expertSystem():
 			if countryList[0][j] != "" and countryList[i][j] != "":
 				countryDetails[countryList[i][0]][countryList[0][j]] = countryList[i][j]
 
-    # for item in countryDetails:
-    # 	print item, '-----'
-        # for domain in countryDetails[item]:
-        # 	print domain#, '->', countryDetails[item][domain]
-        # # print item, countryDetails[]
-
     askQuestion(countryDetails)
 
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
-
-
     select()
