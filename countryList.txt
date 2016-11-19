@@ -1,260 +1,260 @@
-af Afghanistan 
-ax Akrotiri 
-al Albania 
-ag Algeria 
-aq American Samoa 
-an Andorra 
-ao Angola 
-av Anguilla 
-ay Antarctica 
-ac Antigua and Barbuda 
-xq Arctic Ocean 
-ar Argentina 
-am Armenia 
-aa Aruba 
-at Ashmore and Cartier Islands 
-zh Atlantic Ocean 
-as Australia 
-au Austria 
-aj Azerbaijan 
-bf Bahamas, The 
-ba Bahrain 
-bg Bangladesh 
-bb Barbados 
-bo Belarus 
-be Belgium 
-bh Belize 
-bn Benin 
-bd Bermuda 
-bt Bhutan 
-bl Bolivia 
-bk Bosnia and Herzegovina 
-bc Botswana 
-bv Bouvet Island 
-br Brazil 
-in India 
-io British Indian Ocean Territory 
-vi British Virgin Islands 
-bx Brunei 
-bu Bulgaria 
-uv Burkina Faso 
-bm Burma 
-by Burundi 
-cb Cambodia 
-cm Cameroon 
-ca Canada 
-cv Cape Verde 
-cj Cayman Islands 
-ct Central African Republic 
-cd Chad 
-ci Chile 
-ch China 
-kt Christmas Island 
-ip Clipperton Island 
-ck Cocos (Keeling) Islands 
-co Colombia 
-cn Comoros 
-cg Congo, Democratic Republic of the 
-cf Congo, Republic of the 
-cw Cook Islands 
-cr Coral Sea Islands 
-cs Costa Rica 
-iv Cote d'Ivoire 
-hr Croatia 
-cu Cuba 
-cc Curacao 
-cy Cyprus 
-ez Czech Republic 
-da Denmark 
-dx Dhekelia 
-dj Djibouti 
-do Dominica 
-dr Dominican Republic 
-ec Ecuador 
-eg Egypt 
-es El Salvador 
-ek Equatorial Guinea 
-er Eritrea 
-en Estonia 
-et Ethiopia 
-fk Falkland Islands (Islas Malvinas) 
-fo Faroe Islands 
-fj Fiji 
-fi Finland 
-fr France 
-fp French Polynesia 
-fs French Southern and Antarctic Lands 
-gb Gabon 
-ga Gambia, The 
-gz Gaza Strip 
-gg Georgia 
-gm Germany 
-gh Ghana 
-gi Gibraltar 
-gr Greece 
-gl Greenland 
-gj Grenada 
-gq Guam 
-gt Guatemala 
-gk Guernsey 
-gv Guinea 
-pu Guinea-Bissau 
-gy Guyana 
-ha Haiti 
-hm Heard Island and McDonald Islands 
-vt Holy See (Vatican City) 
-ho Honduras 
-hk Hong Kong 
-hu Hungary 
-ic Iceland 
-xo Indian Ocean 
-id Indonesia 
-ir Iran 
-iz Iraq 
-ei Ireland 
-im Isle of Man 
-is Israel 
-it Italy 
-jm Jamaica 
-jn Jan Mayen 
-ja Japan 
-je Jersey 
-jo Jordan 
-kz Kazakhstan 
-ke Kenya 
-kr Kiribati 
-kn Korea, North 
-ks Korea, South 
-kv Kosovo 
-ku Kuwait 
-kg Kyrgyzstan 
-la Laos 
-lg Latvia 
-le Lebanon 
-lt Lesotho 
-li Liberia 
-ly Libya 
-ls Liechtenstein 
-lh Lithuania 
-lu Luxembourg 
-mc Macau 
-mk Macedonia 
-ma Madagascar 
-mi Malawi 
-my Malaysia 
-mv Maldives 
-ml Mali 
-mt Malta 
-rm Marshall Islands 
-mr Mauritania 
-mp Mauritius 
-mx Mexico 
-fm Micronesia, Federated States of 
-md Moldova 
-mn Monaco 
-mg Mongolia 
-mj Montenegro 
-mh Montserrat 
-mo Morocco 
-mz Mozambique 
-wa Namibia 
-nr Nauru 
-bq Navassa Island 
-np Nepal 
-nl Netherlands 
-nc New Caledonia 
-nz New Zealand 
-nu Nicaragua 
-ng Niger 
-ni Nigeria 
-ne Niue 
-nf Norfolk Island 
-cq Northern Mariana Islands 
-no Norway 
-mu Oman 
-zn Pacific Ocean 
-pk Pakistan 
-ps Palau 
-pm Panama 
-pp Papua New Guinea 
-pf Paracel Islands 
-pa Paraguay 
-pe Peru 
-rp Philippines 
-pc Pitcairn Islands 
-pl Poland 
-po Portugal 
-rq Puerto Rico 
-qa Qatar 
-ro Romania 
-rs Russia 
-rw Rwanda 
-tb Saint Barthelemy 
-sh Saint Helena, Ascension, and Tristan da Cunha 
-sc Saint Kitts and Nevis 
-st Saint Lucia 
-rn Saint Martin 
-sb Saint Pierre and Miquelon 
-vc Saint Vincent and the Grenadines 
-ws Samoa 
-sm San Marino 
-tp Sao Tome and Principe 
-sa Saudi Arabia 
-sg Senegal 
-ri Serbia 
-se Seychelles 
-sl Sierra Leone 
-sn Singapore 
-sk Sint Maarten 
-lo Slovakia 
-si Slovenia 
-bp Solomon Islands 
-so Somalia 
-sf South Africa 
-sx South Georgia and South Sandwich Islands 
-oo Southern Ocean 
-od South Sudan 
-sp Spain 
-pg Spratly Islands 
-ce Sri Lanka 
-su Sudan 
-ns Suriname 
-sv Svalbard 
-wz Swaziland 
-sw Sweden 
-sz Switzerland 
-sy Syria 
-tw Taiwan 
-ti Tajikistan 
-tz Tanzania 
-th Thailand 
-tt Timor-Leste 
-to Togo 
-tl Tokelau 
-tn Tonga 
-td Trinidad and Tobago 
-ts Tunisia 
-tu Turkey 
-tx Turkmenistan 
-tk Turks and Caicos Islands 
-tv Tuvalu 
-ug Uganda 
-up Ukraine 
-ae United Arab Emirates 
-uk United Kingdom 
-us United States 
-um United States Pacific Island Wildlife Refuges 
-uy Uruguay 
-uz Uzbekistan 
-nh Vanuatu 
-ve Venezuela 
-vm Vietnam 
-vq Virgin Islands 
-wq Wake Island 
-wf Wallis and Futuna 
-we West Bank 
-wi Western Sahara 
-ym Yemen 
-za Zambia 
-zi Zimbabwe 
-ee European Union 
+af afghanistan 
+ax akrotiri 
+al albania 
+ag algeria 
+aq american samoa 
+an andorra 
+ao angola 
+av anguilla 
+ay antarctica 
+ac antigua and barbuda 
+xq arctic ocean 
+ar argentina 
+am armenia 
+aa aruba 
+at ashmore and cartier islands 
+zh atlantic ocean 
+as australia 
+au austria 
+aj azerbaijan 
+bf bahamas, the 
+ba bahrain 
+bg bangladesh 
+bb barbados 
+bo belarus 
+be belgium 
+bh belize 
+bn benin 
+bd bermuda 
+bt bhutan 
+bl bolivia 
+bk bosnia and herzegovina 
+bc botswana 
+bv bouvet island 
+br brazil 
+in india 
+io british indian ocean territory 
+vi british virgin islands 
+bx brunei 
+bu bulgaria 
+uv burkina faso 
+bm burma 
+by burundi 
+cb cambodia 
+cm cameroon 
+ca canada 
+cv cape verde 
+cj cayman islands 
+ct central african republic 
+cd chad 
+ci chile 
+ch china 
+kt christmas island 
+ip clipperton island 
+ck cocos (keeling) islands 
+co colombia 
+cn comoros 
+cg congo, democratic republic of the 
+cf congo, republic of the 
+cw cook islands 
+cr coral sea islands 
+cs costa rica 
+iv cote d'ivoire 
+hr croatia 
+cu cuba 
+cc curacao 
+cy cyprus 
+ez czech republic 
+da denmark 
+dx dhekelia 
+dj djibouti 
+do dominica 
+dr dominican republic 
+ec ecuador 
+eg egypt 
+es el salvador 
+ek equatorial guinea 
+er eritrea 
+en estonia 
+et ethiopia 
+fk falkland islands (islas malvinas) 
+fo faroe islands 
+fj fiji 
+fi finland 
+fr france 
+fp french polynesia 
+fs french southern and antarctic lands 
+gb gabon 
+ga gambia, the 
+gz gaza strip 
+gg georgia 
+gm germany 
+gh ghana 
+gi gibraltar 
+gr greece 
+gl greenland 
+gj grenada 
+gq guam 
+gt guatemala 
+gk guernsey 
+gv guinea 
+pu guinea-bissau 
+gy guyana 
+ha haiti 
+hm heard island and mcdonald islands 
+vt holy see (vatican city) 
+ho honduras 
+hk hong kong 
+hu hungary 
+ic iceland 
+xo indian ocean 
+id indonesia 
+ir iran 
+iz iraq 
+ei ireland 
+im isle of man 
+is israel 
+it italy 
+jm jamaica 
+jn jan mayen 
+ja japan 
+je jersey 
+jo jordan 
+kz kazakhstan 
+ke kenya 
+kr kiribati 
+kn korea, north 
+ks korea, south 
+kv kosovo 
+ku kuwait 
+kg kyrgyzstan 
+la laos 
+lg latvia 
+le lebanon 
+lt lesotho 
+li liberia 
+ly libya 
+ls liechtenstein 
+lh lithuania 
+lu luxembourg 
+mc macau 
+mk macedonia 
+ma madagascar 
+mi malawi 
+my malaysia 
+mv maldives 
+ml mali 
+mt malta 
+rm marshall islands 
+mr mauritania 
+mp mauritius 
+mx mexico 
+fm micronesia, federated states of 
+md moldova 
+mn monaco 
+mg mongolia 
+mj montenegro 
+mh montserrat 
+mo morocco 
+mz mozambique 
+wa namibia 
+nr nauru 
+bq navassa island 
+np nepal 
+nl netherlands 
+nc new caledonia 
+nz new zealand 
+nu nicaragua 
+ng niger 
+ni nigeria 
+ne niue 
+nf norfolk island 
+cq northern mariana islands 
+no norway 
+mu oman 
+zn pacific ocean 
+pk pakistan 
+ps palau 
+pm panama 
+pp papua new guinea 
+pf paracel islands 
+pa paraguay 
+pe peru 
+rp philippines 
+pc pitcairn islands 
+pl poland 
+po portugal 
+rq puerto rico 
+qa qatar 
+ro romania 
+rs russia 
+rw rwanda 
+tb saint barthelemy 
+sh saint helena, ascension, and tristan da cunha 
+sc saint kitts and nevis 
+st saint lucia 
+rn saint martin 
+sb saint pierre and miquelon 
+vc saint vincent and the grenadines 
+ws samoa 
+sm san marino 
+tp sao tome and principe 
+sa saudi arabia 
+sg senegal 
+ri serbia 
+se seychelles 
+sl sierra leone 
+sn singapore 
+sk sint maarten 
+lo slovakia 
+si slovenia 
+bp solomon islands 
+so somalia 
+sf south africa 
+sx south georgia and south sandwich islands 
+oo southern ocean 
+od south sudan 
+sp spain 
+pg spratly islands 
+ce sri lanka 
+su sudan 
+ns suriname 
+sv svalbard 
+wz swaziland 
+sw sweden 
+sz switzerland 
+sy syria 
+tw taiwan 
+ti tajikistan 
+tz tanzania 
+th thailand 
+tt timor-leste 
+to togo 
+tl tokelau 
+tn tonga 
+td trinidad and tobago 
+ts tunisia 
+tu turkey 
+tx turkmenistan 
+tk turks and caicos islands 
+tv tuvalu 
+ug uganda 
+up ukraine 
+ae united arab emirates 
+uk united kingdom 
+us united states 
+um united states pacific island wildlife refuges 
+uy uruguay 
+uz uzbekistan 
+nh vanuatu 
+ve venezuela 
+vm vietnam 
+vq virgin islands 
+wq wake island 
+wf wallis and futuna 
+we west bank 
+wi western sahara 
+ym yemen 
+za zambia 
+zi zimbabwe 
+ee european union 

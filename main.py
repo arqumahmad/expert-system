@@ -46,13 +46,24 @@ def main():
         if country=='exit':
             exit()
 
-        country = country[0].upper() + country[1:].lower()
+        try:
+            file = open("countryList.txt", "r")
+            for line in file:
+                if country in line:
+                    page = line[:2] + ".html" #finds name of the country's file
+                    break
+            print page
+        except UnboundLocalError:
+            print 'Invalid Input: Please try again'
+            exit()
+
+        # country = country[0].upper() + country[1:].lower()
         keyWord = getQuery() #raw_input("What would you like to know?")
 
         countrySearch(country, keyWord)
 
 def getQuery():
-    userInput = raw_input("What would you like to know?  \n (eg. location, area, climate, population, nationality, rthinic group, languages, birth rate, death rate, economy, gdp, industries, etc)").lower()
+    userInput = raw_input("What would you like to know?  \n(eg. location, area, climate, population, nationality, ethnic group, languages, birth rate, death rate, economy, industries, etc)\n").lower()
 
     wordsToRemove = ["how", "what", "the", "a", "an", "which", "of", "in", ",", ":", ".", "?", "is"]
 
@@ -174,6 +185,7 @@ def liveSuggestion(countryDetails):
         l.append("low")
     else:
         print "Invalid selection"
+        exit()
 
     print "What kind of Climate do you prefer?\n1.Cold\n2.Moderate\n3.Hot\n"
     c = int(raw_input())
@@ -185,6 +197,7 @@ def liveSuggestion(countryDetails):
         l.append("hot")
     else:
         print "Invalid selection"
+        exit()
 
     print "What kind of Government do you prefer?\n1.Democracy\n2.Communist\n3.Monarchy\n4.Republic\n5.Federal"
     g = int(raw_input())
@@ -200,6 +213,7 @@ def liveSuggestion(countryDetails):
         l.append("federal")
     else:
         print "Invalid selection"
+        exit()
 
     print "What is your religion?\n1.Christianity\n2.Buddhism\n3.Hinduism\n4.Islam\n5.Atheist"
     r = int(raw_input())
@@ -212,9 +226,10 @@ def liveSuggestion(countryDetails):
     elif(r == 4):
         l.append("islam")
     elif(r ==5):
-        l.append("athiest")
+        l.append("atheist")
     else:
         print "Invalid selection"
+        exit()
 
     possibleCountry = []
     for item in countryDetails:
@@ -226,7 +241,7 @@ def liveSuggestion(countryDetails):
         for item in possibleCountry:
             print item.upper()
     else:
-        print "Such a rare combination is not available among the top 30 rich countries of the world!"
+        print "Such a rare combination is not available among the top 40 rich countries of the world!"
 
 def workSuggestion(countryDetails):
     x = int(raw_input('What is your work preference?:\n1. Business\n2. Job\n'))
@@ -265,6 +280,7 @@ def workSuggestion(countryDetails):
 
         else:
             print "Wrong input"
+            exit()
 
         possibleCountry = []
         for item in countryDetails:
@@ -278,7 +294,7 @@ def workSuggestion(countryDetails):
             for item in possibleCountry:
                 print item.upper()
         else:
-            print "Such a rare combination is not available among the top 30 rich countries of the world!"
+            print "Such a rare combination is not available among the top 40 rich countries of the world!"
         # break;
 
     elif x == 2:
@@ -302,6 +318,7 @@ def workSuggestion(countryDetails):
 
         else:
             print "Wrong input"
+            exit()
 
         possibleCountry = []
         for item in countryDetails:
@@ -315,9 +332,10 @@ def workSuggestion(countryDetails):
             for item in possibleCountry:
                 print item.upper()
         else:
-            print "Such a rare combination is not available among the top 30 rich countries of the world!"
+            print "Such a rare combination is not available among the top 40 rich countries of the world!"
     else:
         print "wrong input"
+        exit()
 
 def tourismSuggestion():
     tourism = {}
@@ -352,6 +370,9 @@ def tourismSuggestion():
         l.append(1.5)
     elif(c ==3):
         l.append(2.5)
+    else:
+    	print "Invalid option"
+    	exit()
 
     print "What type of place do you wanna go?\n1. Historical Place\n2. Hill Station\n3. Desert Safari\n4. Beaches\n"
 
@@ -365,6 +386,9 @@ def tourismSuggestion():
         l.append("desert")
     elif(p == 4):
         l.append("beach")
+    else:
+    	print "Invalid option"
+    	exit()
 
     # print l
     # possiblePlaces = []
