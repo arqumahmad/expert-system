@@ -33,7 +33,7 @@ def list_country():
     for line in file:
         con = line[3:]
         count += 1
-        print str(count) + '.', con,
+        print str(count) + '.', con.upper(),
     select()
 
 def main():
@@ -46,6 +46,13 @@ def main():
         if country=='exit':
             exit()
 
+        country = country[0].upper() + country[1:].lower()
+        for i in range(len(country)-3):
+            if country[i] == " ":
+                country = country[:i + 1] + country[i + 1].upper() + country[(i + 2):]
+
+
+
         try:
             file = open("countryList.txt", "r")
             for line in file:
@@ -57,8 +64,8 @@ def main():
             print 'Invalid Input: Please try again'
             exit()
 
-        # country = country[0].upper() + country[1:].lower()
         keyWord = getQuery() #raw_input("What would you like to know?")
+
 
         countrySearch(country, keyWord)
 
@@ -74,7 +81,7 @@ def getQuery():
 
     userInput = " ".join(words)
 
-    print userInput
+    #print userInput
 
     return userInput
 
@@ -86,7 +93,7 @@ def countrySearch(country, key):
             if country in line:
                 page = line[:2] + ".html" #finds name of the country's file
                 break
-        print page
+        #print page
     except UnboundLocalError:
         print 'Invalid Input: Please try again'
         return
